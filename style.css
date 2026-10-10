@@ -60,4 +60,23 @@ footer{padding:22px 8px 0;text-align:center;color:#788293;font-size:10px;line-he
     margin-inline: 1px;
     padding: 14px;
   }
+  
+/* Add extra space on the right side */
+.page {
+  padding-right: 18px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding-right: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    padding-right: 24px;
+  }
+}
+
 }
